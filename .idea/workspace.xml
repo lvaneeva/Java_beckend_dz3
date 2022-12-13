@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50fdaa97-6ad8-4aa7-8cca-e3bd66dfc6bb" name="Changes" comment="" />
+    <list default="true" id="50fdaa97-6ad8-4aa7-8cca-e3bd66dfc6bb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +19,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IXL8lR5D3ep4rZFktA48Zs2cNv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,40 +40,63 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.ExampleTest">
-    <configuration name="ExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExampleTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dz3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExampleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson4" />
+      <option name="MAIN_CLASS_NAME" value="lesson4.ExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleTest.kaka" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dz3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExampleTest" />
-      <option name="METHOD_NAME" value="kaka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dz4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dz4" />
+      <option name="MAIN_CLASS_NAME" value="dz4.ExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTest.getRecipeByDietPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dz3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson4" />
+      <option name="MAIN_CLASS_NAME" value="lesson4.ExampleTest" />
+      <option name="METHOD_NAME" value="getRecipeByDietPositiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleTest.postRecipeByTitleIngredientList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExampleTest.shoppingListChain (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dz3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExampleTest" />
-      <option name="METHOD_NAME" value="postRecipeByTitleIngredientList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleTest.postRecipeByTitleLangDe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dz3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExampleTest" />
-      <option name="METHOD_NAME" value="postRecipeByTitleLangDe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dz4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dz4" />
+      <option name="MAIN_CLASS_NAME" value="dz4.ExampleTest" />
+      <option name="METHOD_NAME" value="shoppingListChain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,8 +104,14 @@
     </configuration>
     <configuration name="ExampleTest.shoppingListChain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dz3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExampleTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson4" />
+      <option name="MAIN_CLASS_NAME" value="lesson4.ExampleTest" />
       <option name="METHOD_NAME" value="shoppingListChain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -86,10 +121,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ExampleTest" />
+        <item itemvalue="JUnit.ExampleTest.shoppingListChain (1)" />
         <item itemvalue="JUnit.ExampleTest.shoppingListChain" />
-        <item itemvalue="JUnit.ExampleTest.kaka" />
-        <item itemvalue="JUnit.ExampleTest.postRecipeByTitleIngredientList" />
-        <item itemvalue="JUnit.ExampleTest.postRecipeByTitleLangDe" />
+        <item itemvalue="JUnit.ExampleTest (1)" />
+        <item itemvalue="JUnit.ExampleTest.getRecipeByDietPositiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -103,5 +138,16 @@
       <updated>1670340768194</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
