@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50fdaa97-6ad8-4aa7-8cca-e3bd66dfc6bb" name="Changes" comment="">
+    <list default="true" id="50fdaa97-6ad8-4aa7-8cca-e3bd66dfc6bb" name="Changes" comment="dz4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/api/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/api/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/dto/GetCategoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/dto/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/utils/LoggingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson5/utils/RetrofitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/CreateProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/DeleteProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/GetCategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/ModifyProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/ReturnProductById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson5/ReturnProductsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,80 +53,82 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ExampleTest">
-    <configuration name="ExampleTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ModifyProductTest.modifyProductInFoodCategoryTest">
+    <configuration name="DeleteProductTest.delProductByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dz3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson4" />
-      <option name="MAIN_CLASS_NAME" value="lesson4.ExampleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dz3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dz4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dz4" />
-      <option name="MAIN_CLASS_NAME" value="dz4.ExampleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleTest.getRecipeByDietPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dz3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson4" />
-      <option name="MAIN_CLASS_NAME" value="lesson4.ExampleTest" />
-      <option name="METHOD_NAME" value="getRecipeByDietPositiveTest" />
+      <option name="PACKAGE_NAME" value="Lesson5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson5.DeleteProductTest" />
+      <option name="METHOD_NAME" value="delProductByIdPositiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleTest.shoppingListChain (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCategoryTest.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dz3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dz4.*" />
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dz4" />
-      <option name="MAIN_CLASS_NAME" value="dz4.ExampleTest" />
-      <option name="METHOD_NAME" value="shoppingListChain" />
+      <option name="PACKAGE_NAME" value="Lesson5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson5.GetCategoryTest" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleTest.shoppingListChain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ModifyProductTest.modifyProductInFoodCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dz3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson4" />
-      <option name="MAIN_CLASS_NAME" value="lesson4.ExampleTest" />
-      <option name="METHOD_NAME" value="shoppingListChain" />
+      <option name="PACKAGE_NAME" value="Lesson5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson5.ModifyProductTest" />
+      <option name="METHOD_NAME" value="modifyProductInFoodCategoryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModifyProductTest.setUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dz3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson5.ModifyProductTest" />
+      <option name="METHOD_NAME" value="setUp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReturnProductById.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dz3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson5.ReturnProductById" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExampleTest" />
-        <item itemvalue="JUnit.ExampleTest.shoppingListChain (1)" />
-        <item itemvalue="JUnit.ExampleTest.shoppingListChain" />
-        <item itemvalue="JUnit.ExampleTest (1)" />
-        <item itemvalue="JUnit.ExampleTest.getRecipeByDietPositiveTest" />
+        <item itemvalue="JUnit.ModifyProductTest.modifyProductInFoodCategoryTest" />
+        <item itemvalue="JUnit.ModifyProductTest.setUp" />
+        <item itemvalue="JUnit.DeleteProductTest.delProductByIdPositiveTest" />
+        <item itemvalue="JUnit.ReturnProductById.getCategoryByIdPositiveTest" />
+        <item itemvalue="JUnit.GetCategoryTest.getCategoryByIdPositiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +153,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670340768194</updated>
     </task>
+    <task id="LOCAL-00001" summary="dz4">
+      <created>1670935203870</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670935203870</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,5 +173,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dz4" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz4" />
   </component>
 </project>
