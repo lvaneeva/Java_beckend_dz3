@@ -45,7 +45,6 @@ public class RetrofitUtils {
                 .baseUrl(getBaseUrl())
                 .addConverterFactory(JacksonConverterFactory.create())
                 .build();
-
     }
 
     */

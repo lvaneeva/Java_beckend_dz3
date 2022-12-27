@@ -5,6 +5,10 @@ import Lesson5.dto.Product;
 import Lesson5.utils.RetrofitUtils;
 import com.github.javafaker.Faker;
 import lombok.SneakyThrows;
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.hamcrest.CoreMatchers;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,9 +16,12 @@ import org.junit.jupiter.api.Test;
 import retrofit2.Response;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ModifyProductTest {
     static ProductService productService;
@@ -43,9 +50,10 @@ public class ModifyProductTest {
 
         Response<Product> response  = productService.modifyProduct(product)
                 .execute();
-      //  id =  response.body().getId();
+        id =  response.body().getId();
         assertThat(response.isSuccessful(), CoreMatchers.is(true));
         assertThat(response.body().getPrice(),equalTo(75));
+
     }
 
 }

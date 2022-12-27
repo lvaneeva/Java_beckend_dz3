@@ -5,23 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50fdaa97-6ad8-4aa7-8cca-e3bd66dfc6bb" name="Changes" comment="dz6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/ExampleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/dao/CategoriesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/dao/ProductsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/mapper/xml/CategoriesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/mapper/xml/ProductsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/model/Categories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/model/CategoriesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/model/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/model/ProductsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson6/CreateProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson6/DeleteProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson6/GetCategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson6/ModifyProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson6/ReturnProductById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson6/ReturnProductsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lesson5/dto/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson5/dto/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lesson5/utils/RetrofitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson5/utils/RetrofitUtils.java" afterDir="false" />
@@ -52,14 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Java_backend/dz3/dz3/src/test/java/lesson6",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java_backend/dz3/dz3/src/test/java/lesson6&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java_backend\dz3\dz3\src\test\java\lesson6" />
@@ -70,7 +53,23 @@
       <recent name="lesson6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeleteProductTest.delProductByIdPositiveTest">
+  <component name="RunManager" selected="JUnit.CreateProductTest.createProductInFoodCategoryTest">
+    <configuration name="CreateProductTest.createProductInFoodCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dz3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson6" />
+      <option name="MAIN_CLASS_NAME" value="lesson6.CreateProductTest" />
+      <option name="METHOD_NAME" value="createProductInFoodCategoryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeleteProductTest.delProductByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dz3" />
       <extension name="coverage">
@@ -83,21 +82,6 @@
       <option name="MAIN_CLASS_NAME" value="lesson6.DeleteProductTest" />
       <option name="METHOD_NAME" value="delProductByIdPositiveTest" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ModifyProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dz3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson6" />
-      <option name="MAIN_CLASS_NAME" value="lesson6.ModifyProductTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreateProductTest.createProductInFoodCategoryTest" />
         <item itemvalue="JUnit.DeleteProductTest.delProductByIdPositiveTest" />
         <item itemvalue="JUnit.ReturnProductsTest.getCategoryByIdPositiveTest" />
         <item itemvalue="JUnit.ReturnProductById.getProductByIdPositiveTest" />
         <item itemvalue="JUnit.ModifyProductTest.modifyProductInFoodCategoryTest (1)" />
-        <item itemvalue="JUnit.ModifyProductTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671357304699</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dz6">
+      <created>1671810667819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671810667819</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
